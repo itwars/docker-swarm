@@ -1,0 +1,28 @@
+version: '2'
+services:
+  lb:
+    build: ./haproxy
+    image: itwars/haproxy
+    links:
+      - cache 
+    ports:
+      - 80:80
+  cache:
+     build: ./varnish
+     image: itwars/varnish
+     links:
+      - web
+     ports:
+      - 8000:8000
+  web:
+    build: ./h2o
+    image: itwars/h2o
+    links:
+      - phpfpm
+    ports:
+      - 8001:8001
+  phpfpm:
+    build: ./phpfpm
+    image: itwars/phpfpm
+    ports:
+      - 9000:9000
