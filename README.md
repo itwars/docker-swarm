@@ -7,7 +7,7 @@ This repository is part of a blog post on **Docker Swarm 1.12** example using *V
 
    - haproxy loadbalancer
    - varnish cache
-   - h2o web server
+   - [h2o web server](http://www.it-wars.com/posts/performance/web-performance-H2O-vs-nginx/)
    - phpfpm application server
 
-Fill free to fork my code and have a look to my blog IT wars : http://www.it-wars.com
+Fill free to fork my code and have a look to my blog [IT wars!](http://www.it-wars.com/posts/virtualisation/docker-swarm-par-lexemple/)
