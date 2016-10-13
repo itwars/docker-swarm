@@ -3,6 +3,9 @@ This repository is part of a blog post on **Docker Swarm 1.12** example using *V
 - The init-virtualbox.sh script will automaticaly create several VirtualBox using *docker-machine*
 - Then it create a virtual network (optional)
 - Finaly start a web stack with *docker swarm services*
+
+[![asciicast](https://asciinema.org/a/bup8txirvsiszylckkzrng5gr.png)](https://asciinema.org/a/bup8txirvsiszylckkzrng5gr)
+
 - This **web stack** is based on :
 
    - haproxy loadbalancer
