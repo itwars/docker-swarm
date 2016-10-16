@@ -1,6 +1,12 @@
-This repository is part of a blog post on **Docker Swarm 1.12** example using *VirtualBox*.
+This repository is part of a blog post on **Docker Swarm 1.12** example using *VirtualBox*, **OVH Openstack**.
 ![Docker Swarm](img/docker-swarm.gif)
-- The init-virtualbox.sh script will automaticaly create several VirtualBox using *docker-machine*
+
+Script in action:
+
+![Docker swarm scale](img/docker-swarm-scale.gif)
+
+- The init-virtualbox.sh script will automaticaly create several *VirtualBox VM* using ***docker-machine**
+- The init-ovh.sh script will automaticaly create several *OVH Openstack VM* using **docker-machine**
 - Then it create a virtual network (optional)
 - Finaly start a web stack with *docker swarm services*
 
@@ -13,6 +19,7 @@ This repository is part of a blog post on **Docker Swarm 1.12** example using *V
    - [h2o web server](http://www.it-wars.com/posts/performance/web-performance-H2O-vs-nginx/)
    - phpfpm application server
 
-Fill free to fork my code and have a look to my blog [IT wars!](http://www.it-wars.com/posts/virtualisation/docker-swarm-par-lexemple/)
+Fill free to fork my code and have a look to my blog series :
+- [IT wars Docker swarm VirtualBox example](http://www.it-wars.com/posts/virtualisation/docker-swarm-par-lexemple/)
+- [IT wars Docker swarm OVH Openstack example](http://www.it-wars.com/posts/virtualisation/docker-swarm-112-ovh/)
 
-![Docker swarm scale](img/docker-swarm-scale.gif)
