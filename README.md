@@ -1,3 +1,5 @@
+![docker swarm on virtualbox:passing](img/virtualbox-passing.jpg) ![docker swarm on ovh openstack:passing](img/ovh-openstack-passing.jpg)
+
 This repository is part of a blog post on **Docker Swarm 1.12** example using *VirtualBox*, **OVH Openstack**.
 ![Docker Swarm](img/docker-swarm.gif)
 
