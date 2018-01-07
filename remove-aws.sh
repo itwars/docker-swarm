@@ -1,6 +1,5 @@
 #!/bin/bash
 
-source ../colorizer/Library/colorizer.sh
 source ./init-variables.sh
 source ./box.sh
 
