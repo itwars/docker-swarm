@@ -22,3 +22,8 @@ export AWS_ACCESS_KEY_ID=""
 export AWS_SECRET_ACCESS_KEY=""
 export AWS_DEFAULT_REGION="eu-central-1"
 export region="eu-central-1"
+
+# VMWare ESXi/vSphere
+export ESX_USER=""
+export ESX_PASS=""
+export ESX_IP=""
