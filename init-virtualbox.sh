@@ -45,6 +45,7 @@ sleep $t
 docker run -it -d -p 5000:5000 -e HOST=$(docker-machine ip leader1) -e PORT=5000 -v /var/run/docker.sock:/var/run/docker.sock manomarks/visualizer
 box "Open web browser to visualize cluster" "light_purple" "green"
 open http://$(docker-machine ip leader1):5000
+open http://$(docker-machine ip leader1)/index.php
 
 box "To scale type:eval \$(docker-machine env leader1) && docker service scale web=10" "red" "red"
 box "To remove swarm cluster and cleanup: ./remove.sh" "red" "red"
